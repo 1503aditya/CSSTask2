@@ -1,4 +1,4 @@
-.header,.footer,.sidebar,.mainContent,.extraContent{
+body{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -6,42 +6,38 @@
     background-color: aqua;
     height: 100px;;
 }
-.sidebar,.both{
+.both{
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+}
+.sidebar,.content{  
     display: inline-block;
 }
 .sidebar{
     position: relative;
-    bottom: 260px;
-    margin-top: 10px;
-    background-color: aquamarine;
-    height :400px;
-    width: 400px;
+    bottom: 320px;
+    width: 33%;
+    height :100%;
+    background-color: aquamarine; 
 }
-.both{  
-    height: 400px;
-    width: 1095px;;
-    bottom: 400px;
-    left: 410px;  
-    
+.content{  
+    margin-left: 20px;
+    height: 100%;
+    width: 65%;    
 }
 .mainContent{  
-    
-    margin-top: 10px;
-    margin-left: 10px ;
-    height: 250px;
+    height: 80%;
     background-color: bisque;
-    width: 1075px;   
+    width: 100%; 
+      
 }
 .extraContent{
-    margin-top: 10px;
-    margin-left: 10px;
     background-color: gray;
-    height: 140px;
-    width: 1075px;
+    height: 20%;
+    width: 100%;
 }
-.footer{
-    position: relative;
-    bottom: 260px;
+.ooter{
     height: 140px;
     background-color: blueviolet;
 }
