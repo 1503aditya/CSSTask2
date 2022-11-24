@@ -1,0 +1,50 @@
+body,
+html,
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  margin: 0px;
+  font-size: 15px;
+}
+span {
+  position: absolute;
+  padding-top: 20px;
+}
+.head {
+  background-color: aqua;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.section-body {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.sidebar {
+  float: left;
+  text-align: center;
+  width: calc(25% - 10px);
+  height: 100%;
+  background-color: aquamarine;
+}
+.content {
+  float: right;
+  height: 100%;
+  width: calc(75% - 10px);
+}
+.mainContent {
+  height: calc(70% - 10px);
+  background-color: bisque;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.extraContent {
+  background-color: gray;
+  height: 30%;
+}
+.footer {
+  height: 130px;
+  background-color: blueviolet;
+}
